@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+div {
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    color: black;
+    margin-bottom: 16px;
+    font-size: 2em;
+    font-weight: bold;
+    text-align: center;
+
+}
+.relative{
+    position: relative;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+.absolute{
+    top: 0;
+    left: 50px;
+    bottom: 0;
+    right: 0;
+    color: rgb(255, 255, 255); 
+    background-color:black;
+    z-index: -1;
+
+}
+.z-index{
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+
+}
+.contenedor{
+    width: 400px;
+    height: 400px;
+    background-color: black;
+    position: relative;
+    top: 200px;
+
+}
+.contenedor .subelemento{
+    background-color: cyan;
+    color: black;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    font-size: 12;
+}
+.sticky{
+    position: sticky;
+    top: 0;
+    padding: 5px;
+    background-color: #cae8ca;
+    border: 2px solid #4caf50;
+    width: 100%;
+}

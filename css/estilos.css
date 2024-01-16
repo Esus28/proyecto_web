@@ -1,0 +1,85 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: "nunito";
+    src: url(/static/NunitoSans_7pt-Regular.ttf);
+}
+h1{
+    margin: 50px;
+    background-color: yellow;
+}
+p{
+    margin-bottom: 16px;
+}
+
+ .dotted {
+    border: 2px solid green;
+    margin: 100px auto;
+    width: 200px;
+ }
+
+ .dashed{
+    border: 5px red dashed;
+ }
+
+.solid{
+    border: 2px solid rgb(62, 145, 145);
+    border-radius: 5px;
+}
+
+.double{
+    border-style: double;
+}
+
+.groove{
+    border-style: groove;
+    border-color: rgb(81, 168, 202);
+}
+.ridge{
+    border-style: ridge;
+    background-color:aqua;
+}
+.inset{
+    border-style: inset;
+    background-color:blueviolet;
+    border-color: antiquewhite;
+}
+.outset{
+    border-style: outset;
+    background-color: yellow;
+    border-color: antiquewhite;
+}
+.none{
+    border-style: none;
+}
+.hidden{
+    border-style: hidden;
+}
+.mix{
+    border-style: dotted dashed solid double;
+    
+}
+
+.parrafo{
+    border-left: 5px solid rgb(30, 30, 31);
+    background-color:aqua;
+    margin: 90px 80px;
+    border-radius: 0 5px 5px 0;
+    font-family: sans-serif;
+}
+.parrafo1{
+    border-left: 5px solid rgb(30, 30, 31);
+    background-color:aqua;
+    margin: 90px 80px;
+    font-family: sans-serif;
+}
+
+div{
+    border: 1px solid grey;
+    width: 800px;
+    margin: 20px auto;
+    padding: 100px 200px;
+}

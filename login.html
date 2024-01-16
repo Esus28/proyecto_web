@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario login</title>
+    <link rel="stylesheet" href="css/formulario.css">
+</head>
+<body>
+    <div class="contenedor">
+        <label for="titulo" class="titulo">Control De Acceso</label> 
+        <form action="comprobar_acceso.php" method="post" class="formulario"  name="formulario" >
+
+            <label for="usuario">Usuario</label>
+            <input type="text" name="usuario" id="usuario" placeholder="Escribe tu usuario" class="form-control">
+            <span class="error-message" id="usuario">Usuario no válido. Especifica bien tu usuario </span>
+
+            <label for="password">Contraseña</label>
+            <input type="password" name="password" id="password" placeholder="Escribe tu contraseña " class="form-control">
+            <span class="error-message" id="password">Contraseña no válida. Especifica bien tu contraseña </span>
+
+            <div class="btn-group">
+                <input type="submit" name="guardar" value="Iniciar Sesión" class="guardar">
+            </div>
+        </form>
+        <p>¿No tienes una cuenta? <a href="formulario.html">Regístrate es gratis</a></p>
+        <br>
+    </div>
+</body>
+</html>

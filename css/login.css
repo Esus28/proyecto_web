@@ -1,0 +1,59 @@
+*{
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: "Nunito";
+    src: url('Nunito_Sans/NunitoSans-Italic-VariableFont_YTLC\,opsz\,wdth\,wght.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+body {
+    font-family: "Nunito";
+    background-color: #3a4953;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+#login-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    position: relative;
+    
+}
+
+#company-name {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    color: #000000;
+}
+
+#hello-world-btn {
+    background-color:#bd4040;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+
+input[type=text], input[type=password]{
+    font-size: 1em;
+    width: 100%;
+    border: none;
+    outline: none;
+    margin-bottom: 0.5em;
+    padding: 1em 1em;
+    font-family: "Nunito";
+    border-bottom: 1px solid #9fa09f;
+}
+

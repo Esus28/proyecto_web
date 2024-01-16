@@ -1,0 +1,149 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'nunito';
+}
+
+@font-face {
+    font-family: 'nunito';
+    src: url('Nunito/static/Nunito-Regular.ttf');
+}
+
+/* Estilo de fondo para el cuerpo */
+
+body, html{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #dedede;
+
+}
+
+
+/* Menu de cabecera */
+header {
+    margin-left: 4.025%;
+    position: fixed;
+    display: flex;
+    width: 100%;
+    background-color: #ffffff;
+    padding: 1.1%;
+    
+}
+
+i {
+    color: #06215e;
+    font-size: 100px;
+}
+
+header h2 {
+    margin-right: 20%;
+    margin-left: 2%;
+}
+
+
+input {
+    font-family: 'nunito';
+    border-radius: 6px;
+    width: 20%;
+    text-align: left;
+    padding-left: 20px;
+   
+}
+/* Menu vertical*/
+ul {
+    list-style-type: none;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #fffefe;
+    font-family: sans-serif;
+    width: 4%;   
+    z-index:1000;       
+    position: fixed;
+    
+}
+
+li{
+    
+    padding: 20%;
+    margin-bottom: 40%;
+    
+    
+ 
+}
+
+li a{
+    display:flex ;
+    color: white;
+    text-align: center;
+    padding: 8px;
+    text-decoration: none;
+    width: 2%;
+    font-size: 20px;
+}
+
+li a:hover{
+    border-bottom: 1px solid #ffffff;
+    transition: all 0.3s ease;
+
+}
+
+
+
+/* Tabla */
+
+.contenedor {
+    position: absolute;
+    width: 80%;
+    height: 50%;
+    margin: 8%;
+    background-color: #ffffff;
+    
+}
+
+.contenedor h1{
+    margin: 2%;
+}
+
+.contenedor h5{
+    margin: 2%;
+   
+    
+    
+}
+
+.contenedor button {
+    background-color: #06215e;
+    color: #fff;
+
+}
+
+
+table {
+    width: 80%;
+    border-collapse: collapse;
+    background-color: #ffffff;
+    color: #fff;
+    margin-left: 9%;
+}
+
+th, td {
+    border: 1px solid #666;
+    padding: 8px;
+    text-align: center;
+}
+
+th {
+    background-color: #444;
+    color: #fff;
+}
+
+td {
+    color: #000000;
+}
